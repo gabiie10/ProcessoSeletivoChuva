@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+@import "idiomas";
+@import "name-user";
+@import "perfil";
+@import "details-area";
+.aba-right{
+    @media(max-width:600px){    
+        width: 204%;
+    }
+    width: 85%;
+    height: auto;
+    position: absolute;
+    left:  15%;
+    header{
+        background-color:var(--color-second-pink);
+        height:97px;
+        display: flex;
+
+        @media(max-width:600px){
+        height: auto;
+        width: 136%;
+        padding-top: 22px;
+        display: block;
+        }
+
+
+        .customize{
+            width: 50%;  
+            display: flex;  
+            align-items: center;   
+            justify-content: space-around;
+            @media(max-width: 600px){
+                width: 100%;
+            }
+        }
+        
+    }
+}

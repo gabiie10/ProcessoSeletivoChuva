@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import "card";
+@import "card-answer";
+
+.details-box-3{
+    
+    position: relative;
+    margin-top: 22px;
+
+    width: 100%;
+    height: auto;
+
+    background-color:white;
+    border: 1px solid #ECECEC;
+    border-radius: 3px;
+
+    @media(max-width:600px){
+        margin-top: 18%;
+        width: 105%;
+    }
+    button{
+        background-color: transparent;
+        border: none;
+        color: var(--color-primary-orange);
+        font-weight: bold;
+        button:hover{
+            cursor: pointer;
+        }
+    }
+    .content-box{
+       
+        padding: 10px 14px 15px 14px;
+
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+
+        line-height: 23px;
+        letter-spacing: 0.02em;
+
+        color: #5C5C5C;
+    }
+    .h3-pc{
+        justify-content: center;
+
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+        display: flex;  
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+
+        color: var(--color-primary-orange); 
+        @media(max-width:600px){
+            display: none;   
+         }
+    }
+    .h3-mobile{
+        
+        display:none;
+        @media(max-width:600px){    
+            margin-bottom: 0px;
+    
+        display: flex;  
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        color: var(--color-primary-orange); 
+        font-size: 60px;
+
+        line-height: 47px;
+        justify-content: center;
+        }
+    }
+    .img-area{
+        margin-left:30%;display:flex;justify-content: space-around;height: 48px;width: 40%;
+        @media(max-width:600px){
+            margin-left: 22%;
+            display: flex;
+            justify-content: space-between;
+
+        height: 124px;
+        width: 50%;
+        }
+    }
+    .curiosidade{
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+
+                    display: flex;
+                    justify-content: center;
+                        
+                    font-family: 'Quicksand';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 19px;
+                    text-align: center;
+
+                    color: #595959;
+                    @media(max-width: 600px){
+                       display: none; 
+                    }
+    }
+    .curiosidade-mobile{
+        display: none;
+        justify-content: center;
+
+        margin-top: 15px;
+        margin-bottom: 15px;
+            
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+
+        line-height: 19px;
+        text-align: center;
+
+        color: #595959;
+        @media(max-width: 600px){
+            display: flex;
+
+            font-size: 35px;
+            line-height: 42px;
+    
+        }
+        
+    }
+    .addCard{
+      
+        position: absolute;
+        top:-17px;
+        left: 43.72%;
+        right: 43.72%;
+        border: none; 
+
+        width: 133px;
+        height: 32px;
+
+        background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+        
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+        border-radius: 4px;  
+        @media(max-width:600px){  
+        width: 351px;
+        height: 85px;
+
+
+        top: -46px;
+        left: 12%;
+        right: 15.72%;
+        
+        width: 70%;
+        height: 85px;
+
+        }
+        img{
+            @media (max-width:600px) {
+                width: 53px;
+                height: 53px;
+
+                position: absolute;
+                left: 35px;
+                top: 21px;
+            }
+            
+        }
+        p{
+                font-family: 'Quicksand';
+                font-style: normal;
+                font-weight: 300;
+             
+                font-size: 15px;
+                line-height: 16px;
+                margin-top: 5px;
+                
+
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                color: #FFFFFF;  
+        @media(max-width: 600px){
+            
+            display: flex;
+
+            margin-top: 31px;
+            margin-left: 89px;
+
+            font-size: 53px;   
+            letter-spacing: 2px;
+        }
+        }           
+    } 
+    .line{
+        position:relative;
+        
+        height:33px;
+        width:90%;
+
+        margin-top:31px;
+        margin-left: 5%;
+        margin-right: 5%;
+
+        border-top: 1px solid #E7E7E7;
+        @media(max-width:600px){
+            border-top: 9px solid #E7E7E7;   
+            margin-top:49px;
+        }
+    }
+
+
+}

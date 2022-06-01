@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import "figure";
+@import "details-box-1";
+@import "details-box-2";
+@import "details-box-3";
+@import "details-area";
+@import "card";
+@import "card-answer";
+.container{
+    width:90%;
+    height:238vh;
+
+    margin-left: 5%;
+    margin-right: 5%;
+    @media(max-width:600px){
+        margin-left: 4%;
+        width: 120%;
+    }
+    }
+    .active{
+        display: inline-block;
+    }
+    .inative{
+        display: none;
+    }
+    .sub-container{
+        display: flex;
+        margin-left: 22px;
+        @media(max-width:600px){
+            
+            display: block;
+            
+            padding-left: 3px;
+        }
+    } 
+   
+      
+    
+    
+   
+

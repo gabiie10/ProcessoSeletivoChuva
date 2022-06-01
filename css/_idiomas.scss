@@ -1,0 +1,83 @@
+.idiomas{
+    box-sizing: border-box;
+
+    background-color: transparent;
+                
+    width: 97px;
+    height: 34px;
+   
+
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    @media(max-width:600px){
+        margin-left: 15px;
+        display: flex;
+        width: 215px;
+
+height: 40%;
+
+margin-top: 33px;
+    }
+   :hover{
+       cursor: pointer;
+   }
+    .icon{
+        @media(max-width: 600px){
+            width: 52px;
+            height: 51px;
+            margin-top: -3px;
+            
+        }
+        width: 22px;
+        height: 21px;
+
+        margin-right: 58px;
+        margin-bottom: -2px;
+
+       
+    }
+    
+    .name_idioma{
+        @media(max-width: 600px){
+            position: absolute;
+            top: 348px;
+            left: 121px;
+            
+              
+            
+        height: 18px;
+        
+        font-family: "Quicksand";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 18px;
+        color: #333333;
+        }
+        width: 42px;
+        height: 18px;
+
+        margin:-19px 5px 0px 22px ;
+      
+
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 400;
+
+        font-size: 14px;
+        line-height: 18px;
+
+        color: #333333;
+
+    }
+    .seta{
+        margin:-11px 0px 22px 48px;
+        @media(max-width: 600px){
+            
+position: absolute;
+left: 63px;
+height: 16px;
+        }
+       
+    }
+}

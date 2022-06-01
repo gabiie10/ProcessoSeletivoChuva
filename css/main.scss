@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+
+@import "aba-left-pc";
+
+@import "placa";
+@import "aba-right";
+@import "container";
+@import "aba-left-mobile";
+
+@import "title-1";
+@import "title-2";
+@import "title-3";
+@import "footer";
+@import "title-details-box";
+
+:root{
+    --color-primary-orange:  #ED7839;
+    --color-second-pink:#FDF1EB;
+    --color-box-line:#ECECEC;
+}
+body{
+    margin:0px ;
+}
