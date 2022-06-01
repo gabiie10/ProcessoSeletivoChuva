@@ -1647,7 +1647,7 @@ footer img {
   margin-left: 5%;
   margin-right: 5%;
   margin-top: -11px;
-  /*display: none;*/
+  display: none;
 }
 .form-container h2 {
   font-family: "Quicksand";
