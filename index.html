@@ -143,7 +143,7 @@
                         font-style: normal;
                         font-weight: 500;
                         font-size: 54px;
-                        line-height: 19px;">Eixos tematicos</span>
+                        line-height: 19px;">Eixos temáticos</span>
                         
                     </li>
                     <li style=" display: flex;
@@ -431,107 +431,29 @@ e cultural é a curiosidade?Deixe seus
                         </div>
                        
                     </div>
-                    <div  id="formu" style="width: 90%;
-                    margin-left: 5%;margin-right: 5%;
-                    margin-top: 17px;
-                    height: auto;
-                    display: none;
-                    margin-top: -11px;
-                    z-index:-1;
-                    background: #C4C4C4;">
-                        <h2 style="
-                        
-                        font-family: 'Quicksand';
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 14px;
-                        line-height: 18px;
-                        /* identical to box height */
-
-                        text-align: center;
-
-                        color: #5C5C5C;
-                        ">
+                    <div  class="form-container" id="formu">
+                        <h2 >
                         Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</h2>    
-                    
-                    
-                    <form >
-                        
-                        <label for="m-assunto"
-                        
-                        
-                        style="margin-top: 22px;font-family: 'Roboto';
-                        font-style: normal;
-                        font-weight: 700;
-                        font-size: 16px;
-                        line-height: 19px;
-                        /* identical to box height */
-                        margin-bottom: 1px;
-                        
-                        color: #ED7839;">Assunto</label><br>
-                        <input  type="text" id="m-assunto" required 
-                        style="background: #FFFFFF;
-                        position: relative;
-                        border: 1px solid #CCCCCC;
-                        border-radius: 3px;font-family: 'Quicksand';
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 14px;
-                        line-height: 18px;
-                        /* identical to box height */
-
-                        width:99.3%;
-                        height:39px;
-
-                        color: #4D4D4D;" placeholder="Defina um tópico sucinto para notificar os autores...">
-
-
-                        <label for="m-conteudo" style="margin-top: 22px;font-family: 'Roboto';
-                        font-style: normal;
-                        font-weight: 700;
-                        font-size: 16px;
-                        line-height: 19px;
-                        /* identical to box height */
-                        margin-bottom: 1px;
-                        
-                        color: #ED7839;">Conteúdo</label><br>
-                        <div style="background: #FFFFFF;
-                        border: 1px solid #CCCCCC;
-                        border-radius: 3px;
-                        
-                        height: 120px;">
-                        <textarea id="m-conteudo" required
-                        
-                        style="height: 80px;width:99.3%;border:none;color: #4D4D4D;font-size: 14px;font-family: 'Quicksand';">
+                        <form >
                             
-                        </textarea>
-                        <div style="display: flex;height: auto;">
-                                <div style="background: #EAF1F2;
-                                border: 1px solid #CCCCCC;
-                                border-radius: 0px 0px 4px 4px;
-                                margin-left: -1px;
-                                width:80%;
-                                height: 31px;">
-                                
-                                </div>
-                                <button id="btnSalvar" style="width: 20%;background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
-                                border-radius: 0px 0px 4px 0px;font-family: 'Quicksand';
-                                font-style: normal;
-                                font-weight: 700;
-                                font-size: 15px;
-                                line-height: 16px;
+                            <label for="m-assunto">Assunto</label><br>
 
+                            <input  type="text" id="m-assunto" required 
+                            placeholder="Defina um tópico sucinto para notificar os autores...">
+                            <label for="m-conteudo">Conteúdo</label><br>
 
-                                text-align: center;
-
-                                color: #FFFFFF;
-                                ">Enviar</button>
-                        </div>
-                        </div>
-
-
-                    </form>
-                                
+                            <fieldset >
+                                <textarea id="m-conteudo" required>
+                                    </textarea>
+                                <div style="display: flex;height: auto;">
+                                        <span style="width: 80%;">
+                                        
+                                        </span>
+                                        <button id="btnSalvar"
+                                        >Enviar</button>                              
+                                </div>                       
+                            </fieldset>
+                        </form>            
                     </div>
                     <article  class="card">
                         <h3>
@@ -550,8 +472,12 @@ e cultural é a curiosidade?Deixe seus
                             </button>
 
                           
-                            <p  class="num-likes" style="    width: 40%;
-                            display: flex;height:19px;font-family: 'Quicksand';" id="likes">1 like</p>
+                            <p  class="num-likes" style="    
+                            width: 40%;
+                            height:19px;
+
+                            display: flex;
+                            font-family: 'Quicksand';" id="likes">1 like</p>
                               <script>
 
                                  
@@ -601,8 +527,10 @@ e cultural é a curiosidade?Deixe seus
                                 }
 
                             </script>
-                            <p style="    width: 40%;
-                            display: flex;height:19px;font-family: 'Quicksand';" id="likes">4 likes</p>
+                            <p style="   
+                            width: 40%;
+                            height:19px;
+                            display: flex;font-family: 'Quicksand';" id="likes">4 likes</p>
                             <div    
                             >4 respostas</div>       
                         </section>    

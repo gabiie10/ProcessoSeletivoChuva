@@ -1,12 +1,5 @@
 .name-user div{ 
-    @media(max-width:600px){
-    height: 23px;   
-
-    font-size: 36px;
-
-    line-height: 8px;  
-    margin-bottom: 9px;
-    }
+   
     height: 17px;
 
     font-family: 'Quicksand';
@@ -16,6 +9,14 @@
     text-align: right;
 
     color: #333333;
+    @media(max-width:600px){
+        height: 23px;   
+    
+        font-size: 36px;
+    
+        line-height: 8px;  
+        margin-bottom: 9px;
+        }
     .welcome{
 
         font-size: 14px;

@@ -14,6 +14,7 @@ footer{
 
     font-family: 'Quicksand';
     color: #4D4D4D;
+
     @media(max-width:600px){   
       
     display: block;
@@ -39,12 +40,14 @@ footer{
     
     
     img{
+        
+        width: 25%;
+        height:75%;
+
         @media(max-width:600px){
             width: 121%;
             
             margin-left: 3%;
         }
-        width: 25%;
-        height:75%;
     }
 }
